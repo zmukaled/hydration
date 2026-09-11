@@ -1,12 +1,10 @@
 # TARGET: today's build
 
-Choose the idea, person, interaction, and visual direction. The agent can help phrase and save your decisions after you approve them. The provided scope and review safeguards stay in place.
-
-- **Thing:** [My one-page website or mini-app and its main interaction.]
-- **Audience:** [One specific person, and what they want to do or understand.]
-- **Requirements:** One working primary interaction; selected states and results are understandable; honor my approved standing rule in AGENTS.md.
-- **Guardrails:** Static browser code. No required external service, keys, accounts, runtime AI, or private data. Label fictional or sample content. Preserve the example and publishing setup. Work on a branch and wait for human review before shipping.
-- **Experience:** [My visual reference or direction and the most important layout or interaction relationship.]
-- **Test:** I can complete the main action, check one boundary or factual claim, and point to my standing rule's effect in the actual preview. After I approve and merge, the same registered Pages URL works.
+- **Thing:** A one-page hydration tracker where adults set daily water, potassium, and magnesium goals, then log drinks and amounts to see progress toward each goal.
+- **Audience:** Adults who actively monitor hydration and want a quick, understandable view of how their drinks contribute to water and electrolyte-related targets.
+- **Requirements:** One working primary interaction: set goals and log a drink from a small labeled sample list (water, BodyArmor-style sports drink, Gatorade-style sports drink, or beer) with an amount. Show understandable selected states, totals, and remaining amounts for water, potassium, and magnesium. Honor my approved standing rule in AGENTS.md.
+- **Guardrails:** Static browser code. No required external service, keys, accounts, runtime AI, or private data. Label drink nutrition as illustrative/sample estimates; do not make medical claims. Preserve the example and publishing setup. Work on a branch and wait for human review before shipping.
+- **Experience:** Sleek Frutiger Aero: glossy translucent panels, aqua and sky-blue gradients, soft bubbles or water-like forms, bright readable progress indicators, and a responsive dashboard layout.
+- **Test:** I can set goals, log each sample drink, see all three progress measures update, confirm beer remains logged while advancing none of the goals, and identify that nutrition values are sample estimates in the actual preview. After I approve and merge, the same registered Pages URL works.
 
 The coastal example has a [completed TARGET](examples/coast/SPEC.md). It demonstrates the format, not a required topic.
